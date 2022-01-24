@@ -15,8 +15,9 @@
 */
 class ga_queue
 {
+	//Did the double locked version. 
 
-	struct node_t {
+	struct node_t { 
 		void* value;
 		node_t* next;
 
